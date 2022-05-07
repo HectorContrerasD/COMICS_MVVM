@@ -1,0 +1,93 @@
+﻿<UserControl x:Class="Unidad_2_Proyecto_Comics.Views.DetallesDeHeroeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Unidad_2_Proyecto_Comics.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Background="Transparent">
+    <UserControl.Effect>
+        <DropShadowEffect BlurRadius="40" Color="Gold"></DropShadowEffect>
+    </UserControl.Effect>
+    <UserControl.Resources>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontWeight" Value="ExtraBlack"></Setter>
+            
+        </Style>
+    </UserControl.Resources>
+    <UserControl.Style>
+        
+        <Style TargetType="UserControl">
+            <Setter Property="Content">
+                <Setter.Value>
+                    <DockPanel HorizontalAlignment="Center">
+   
+                        <Grid  Height="200" DockPanel.Dock="Top" >
+                            
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height=".5*"></RowDefinition>
+                                <RowDefinition Height=".1*"></RowDefinition>
+                                <RowDefinition Height=".2*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Border Margin="5" Grid.Row="0" Grid.RowSpan="3" Grid.Column ="1"  BorderThickness="1" BorderBrush="Gold">
+                                <Image  Stretch="Fill" Source="{Binding Heroe.Imagen}"></Image>
+                            </Border>
+                            <TextBlock Grid.Row="1" Grid.RowSpan="2" Foreground="White"  FontWeight="ExtraBlack" Margin="20"  FontSize="9"  HorizontalAlignment="Center" Grid.Column="1" Text="{Binding Heroe.EditorialOrigen}"></TextBlock>
+                            <TextBlock Grid.Row="2"  Foreground="White" FontWeight="ExtraBlack" Margin="10"  FontSize="20" HorizontalAlignment="Center" Grid.Column="1" VerticalAlignment="Center" Text="{Binding Heroe.NombreHeroe}"></TextBlock>
+                        </Grid>
+                        <Border BorderBrush="Gold" BorderThickness="5" CornerRadius="5" >
+                            <StackPanel Margin="10">
+                            <StackPanel.Resources>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="Foreground" Value="White"></Setter>
+                                    <Setter Property="FontWeight" Value="Bold"></Setter>
+                                    </Style>
+                            </StackPanel.Resources>
+                            <TextBlock>Nombre de civil: <TextBlock Text="{Binding Heroe.NombreCivil}"></TextBlock></TextBlock>
+                                <TextBlock>Edad: <TextBlock Text="{Binding Heroe.Edad}"></TextBlock><TextBlock Text=" años"></TextBlock></TextBlock>
+                            <TextBlock>Poder: <TextBlock Text="{Binding Heroe.Poder}"></TextBlock></TextBlock>
+                                <TextBlock>Afiliación: <TextBlock Text="{Binding Heroe.Afiliacion}"></TextBlock></TextBlock>
+                                <TextBlock  Text="Descripción general: "></TextBlock>
+                        <TextBlock TextWrapping="Wrap" Text="{Binding Heroe.Descripcion}"></TextBlock>
+                        </StackPanel>
+                        </Border>
+                    </DockPanel>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Heroe}" Value="{x:Null}">
+                    <Setter Property="Content">
+                        <Setter.Value>
+                            <Grid Background="White">
+                                <Grid.Resources>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="Foreground" Value="Black"></Setter>
+                                    </Style>
+                                </Grid.Resources>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height=".9*"></RowDefinition>
+                                    <RowDefinition Height=".3*"></RowDefinition>
+                                    <RowDefinition Height=".9*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Image Source="https://i.pinimg.com/originals/be/db/45/bedb4590946499932dfcfae066786dad.jpg" Width="300" Height="700" Grid.RowSpan="3"></Image>
+                                <StackPanel  Grid.Row="1" Margin="0,0,40,0">
+                                    <TextBlock  TextAlignment="Right" Text="El Sr.Pool quiere conocer a un héroe,"></TextBlock>
+                                    <TextBlock  Margin="0,0,60,0" TextAlignment="Right" Text="selecciona o agrega uno."></TextBlock>
+                                </StackPanel>
+                            </Grid>
+                        </Setter.Value>
+                    </Setter>
+                </DataTrigger>
+                
+            </Style.Triggers>
+        </Style>
+    </UserControl.Style>
+   
+</UserControl>

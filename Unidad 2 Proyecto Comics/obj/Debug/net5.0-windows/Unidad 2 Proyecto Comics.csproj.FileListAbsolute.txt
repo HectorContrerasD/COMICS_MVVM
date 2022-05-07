@@ -1,0 +1,38 @@
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Unidad 2 Proyecto Comics.csproj.AssemblyReference.cache
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Views\AgregarView.g.cs
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Views\DetallesDeHeroeView.g.cs
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Views\EditarView.g.cs
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Views\HeroesControl.g.cs
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Views\HeroesView.g.cs
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Unidad 2 Proyecto Comics_MarkupCompile.cache
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Unidad 2 Proyecto Comics_MarkupCompile.lref
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\bin\Debug\net5.0-windows\Unidad 2 Proyecto Comics.exe
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\bin\Debug\net5.0-windows\Unidad 2 Proyecto Comics.deps.json
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\bin\Debug\net5.0-windows\Unidad 2 Proyecto Comics.runtimeconfig.json
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\bin\Debug\net5.0-windows\Unidad 2 Proyecto Comics.runtimeconfig.dev.json
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\bin\Debug\net5.0-windows\Unidad 2 Proyecto Comics.dll
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\bin\Debug\net5.0-windows\ref\Unidad 2 Proyecto Comics.dll
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\bin\Debug\net5.0-windows\Unidad 2 Proyecto Comics.pdb
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Views\AgregarView.baml
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Views\DetallesDeHeroeView.baml
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Views\EditarView.baml
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Views\HeroesControl.baml
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Views\HeroesView.baml
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Unidad 2 Proyecto Comics.g.resources
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Unidad 2 Proyecto Comics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Unidad 2 Proyecto Comics.AssemblyInfoInputs.cache
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Unidad 2 Proyecto Comics.AssemblyInfo.cs
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Unidad 2 Proyecto Comics.csproj.CoreCompileInputs.cache
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Unidad 2 Proyecto Comics.dll
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\ref\Unidad 2 Proyecto Comics.dll
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Unidad 2 Proyecto Comics.pdb
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Unidad 2 Proyecto Comics.genruntimeconfig.cache
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\bin\Debug\net5.0-windows\GalaSoft.MvvmLight.Extras.dll
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\bin\Debug\net5.0-windows\GalaSoft.MvvmLight.Platform.dll
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\bin\Debug\net5.0-windows\GalaSoft.MvvmLight.dll
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\bin\Debug\net5.0-windows\System.Windows.Interactivity.dll
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Views\Prueba.g.cs
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\obj\Debug\net5.0-windows\Views\Prueba.baml
+C:\Users\juanh\source\repos\Unidad 2 Proyecto Comics\Unidad 2 Proyecto Comics\bin\Debug\net5.0-windows\Newtonsoft.Json.dll

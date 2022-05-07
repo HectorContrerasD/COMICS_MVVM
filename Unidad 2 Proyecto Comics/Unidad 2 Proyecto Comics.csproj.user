@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\AgregarView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\DetallesDeHeroeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\EditarView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\HeroesControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\HeroesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Prueba.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\AgregarView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\DetallesDeHeroeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\EditarView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\HeroesControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\HeroesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Prueba.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

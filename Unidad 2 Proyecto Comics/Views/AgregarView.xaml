@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="Unidad_2_Proyecto_Comics.Views.AgregarView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Unidad_2_Proyecto_Comics.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="800" Background="DarkRed">
+    <UserControl.Effect>
+        <DropShadowEffect BlurRadius="40" Color="Gold" ></DropShadowEffect>
+    </UserControl.Effect>
+    <UserControl.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="White"></Setter>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="10,0,10,0"></Setter>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="Gold"></Setter>
+            <Setter Property="Foreground" Value="DarkRed"></Setter>
+            <Setter Property="Margin" Value="3,2,3,0"></Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".4*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height=".1*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.RowSpan="3" Grid.ColumnSpan="2" Margin="80,80,80,0" >
+            <Label>Nombre de héroe:</Label>
+            <TextBox Text="{Binding Heroe.NombreHeroe}" ></TextBox>
+            <Label>Nombre civil:</Label>
+            <TextBox Text="{Binding Heroe.NombreCivil}"></TextBox>
+            <Label>Poder:</Label>
+            <TextBox Text="{Binding Heroe.Poder}"></TextBox>
+            <Label>Edad:</Label>
+            <TextBox Text="{Binding Heroe.Edad}"></TextBox>
+            <Label>Afiliación:</Label>
+            <TextBox Text="{Binding Heroe.Afiliacion}"></TextBox>
+            <Label>Editorial de origen:</Label>
+            <TextBox Text="{Binding Heroe.EditorialOrigen}"></TextBox>
+            <Label>Descripción:</Label>
+            <TextBox Text="{Binding Heroe.Descripcion}"></TextBox>
+            <Label>Imágen de referencia (URL):</Label>
+            <TextBox Text="{Binding Heroe.Imagen}"></TextBox>
+            <TextBlock TextAlignment="Center" Width="330" Background="White"  Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding Error}"></TextBlock>
+        </StackPanel>
+        <Image Height="70" Margin="15"  VerticalAlignment="Top" Source="https://www.kindpng.com/picc/m/207-2070036_marvel-comics-logo-hd-png-download.png" Grid.ColumnSpan="2" HorizontalAlignment="Center"></Image>
+        <WrapPanel Grid.Row="2" HorizontalAlignment="Left" Grid.Column="1" Margin="294,0,0,0" >
+
+            <Button Command="{Binding AgregarCommand}" Content="Guardar"></Button>
+            <Button Command="{Binding CancelarCommand}" Content="Cancelar"></Button>
+        </WrapPanel>
+    </Grid>
+</UserControl>
